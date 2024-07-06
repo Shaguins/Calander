@@ -7,15 +7,55 @@
     <style>
       .mainIcon {
         width: 100px;
+        display: block;
+        
+        
         
       }
       .searchBox{
         font-size: 20px;
         margin-left: 20px;
-        
+        display: block;
         border-radius: 20px;
         border: none;
-        box-shadow: 5px, 5px, 2px, rgb(143, 143, 143);
+        box-shadow: 10px, 5px, 2px, rgb(14, 186, 230);
+        margin-bottom: 20px;
+        
+      }
+      .FirstWords{
+        display: block;
+      }
+      .week{
+        display: flex;
+        flex-direction: row;
+        padding: 2px;
+        
+      }
+      .week div{
+        display: inline;
+        border: black;
+        border: solid;
+        height: 150px;
+        width: 150px;
+        margin: 1px 10px;
+        box-shadow: 5px, 5px 10px, black ;
+        
+      }
+      .image-box{
+        display: inline;
+        border: solid black;
+
+      }
+      .dateName{
+        display: block;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-bottom: 5px
+
+      }
+      .label{
+        margin-top: 0px;
+        margin-left: 2px;
       }
     </style>
   </head>
@@ -34,12 +74,42 @@
 
     <button>Josh</button>
 
-    <p> 
+    <p class = "FirstWords"> 
       Hello, world! Hi
     </p>
 
     <img class = "mainIcon", src="bobaBots.webp">
-  
+
+
+    <div class="week">
+      <div>
+        <p class ="dateName">
+          6/30/24
+        </p>
+        <p class="label">
+          Programming
+        </p>
+      </div>
+      <div>
+        7/1/24
+      </div>
+      <div>
+        7/2/24
+      </div>
+      <div>
+        7/3/24
+      </div>
+      <div>
+        7/4/24
+      </div>
+      <div>
+        7/5/24
+      </div>
+      <div>
+        7/6/24
+      </div>
+
+    </div>
   </body>
 </html>
 
